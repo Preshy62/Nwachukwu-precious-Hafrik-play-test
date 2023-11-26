@@ -1,0 +1,291 @@
+*{
+
+margin: 0;
+padding: 0;
+text-decoration: none;
+list-style-type: none;
+
+}
+
+
+.logo img{
+
+width: 150px;
+margin-bottom: 20px;
+margin-top: 10px;
+overflow: hidden;
+margin-left: 80px;
+
+}
+
+
+
+
+
+
+
+body{
+
+    display: flex;
+
+    
+}
+
+
+
+
+
+
+.side-bar{
+
+  position: sticky;
+background-color: #262626;
+width: 60px;
+height: 118vh;
+padding: 20px;
+color: green;
+overflow: hidden;
+transition: all 1s;
+
+}
+
+.side-bar:hover{
+
+width: 20%;
+transition: 1s;
+
+
+}
+
+
+ul li{
+
+padding: 15px;
+overflow: hidden;
+
+}
+
+
+ul li a{
+
+color: white;
+overflow: hidden;
+}
+
+.best a{
+
+color: green;
+
+}
+
+ul a{
+
+display: flex;
+gap: 10px;
+
+}
+
+
+li i{
+
+font-size: 20px;
+
+}
+
+
+
+.image img{
+
+width: 30px;
+border-radius: 50px;
+
+
+}
+
+
+.container{
+
+display: flex;
+
+
+
+
+
+width: 100%;
+
+justify-content: space-between;
+align-items: center;
+
+background-color:black;
+
+
+}
+
+
+.search-bar{
+background-color:#262626;
+width: 20%;
+margin: 5px;
+border-radius: 90px ;
+border: 10px solid ;
+padding: 20px;
+
+}
+
+
+
+
+
+
+.right{
+justify-content: space-around;
+
+display: flex;
+margin: 20px;
+color: white;
+}
+
+.icon a{
+
+color: white;
+font-size: 20px;
+
+}
+
+
+.css-image{
+
+ background-color: #262626;   
+width: 100%;
+  height: 50vh;    
+
+}
+
+.css-image img{
+
+width:50%;
+margin-left: 250px;
+
+
+}
+
+ 
+
+
+
+.next-div{
+
+    
+background-color:black;
+
+}
+
+.next{
+
+display: flex;
+padding: ;
+
+width: 95%;
+/* background-color:blue; */
+
+/* width: 1093px; */
+align-items: center;
+background-color:black;
+border: 20px solid;
+border-radius: 20px;
+height: 40vh;
+
+}
+
+.next-div p{
+
+color: white;
+font-size: 24px;
+font-style: normal;
+font-weight: 500px;
+margin-left: 50px;
+
+
+}
+
+
+
+.next-div img{
+
+width: 95%;
+justify-content: space-between;
+margin:5px 10px;
+padding: 5px  15px;
+
+}
+
+.footer{
+
+position: relative;
+width: 100%;
+display: flex;
+
+background-color:#262626;
+color: white;
+height: 10vh;
+margin: auto;
+
+}
+
+.footer-img {
+flex: 1;
+display: flex;
+gap: 1rem;
+font-size: 10px;
+width: 100px;
+margin-top: 19px;
+
+}
+
+.heart{
+
+margin-left: 30px;
+margin-top: 10px;
+
+}
+
+.flex-icons{
+display: flex;
+align-items: center;
+margin-right: 500px;
+
+
+
+}
+
+.flex-icons a{
+
+  color: white;
+  padding: 10px;
+
+}
+
+
+.row{
+
+margin-left: 30px;
+
+}
+
+
+.fa-pause{
+
+  border: 6px  solid green;
+border-radius: 10px;
+font-size: 10px;
+}
+
+.low{
+
+  margin-right: 30px;
+  margin-top: 27px;
+  
+
+}
+
+/* my mobile responsivness starts here */
